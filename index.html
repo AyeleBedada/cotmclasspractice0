@@ -49,9 +49,41 @@
 </table>
 
 <p >
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, illo. At similique error hic exercitationem harum porro 
-    consectetur ab officia. Odio nam, nesciunt sed doloremque quibusdam blanditiis? Consequuntur, accusantium alias!
+    <fieldset>
+        <legend>Interact with us</legend>
+<form action="https://formsubmit.co/ayele.architect@gmail.com" method="POST">
+             <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New email">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="hidden" name="_next" value="htmlfiles/Thank-you.html">
+            <input type="text" name="message" placeholder="Write your message here"  required>
+            <button type="submit">Send</button>
+           
+       </form>
+</fieldset>
+
+<fieldset>
+
+    <legend>Upload files</legend>
+
+    <form method="POST" action="https://formsubmit.co/ayele.architect@gmail.com" enctype="multipart/form-data">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="email" name="email" placeholder="Your email">
+        <textarea name="message" placeholder="Details of your probslem"></textarea>
+        <input type="file" name="attachment" accept="image/png, image/jpeg">
+        <button type="submit">Send Test</button>
+    </form>
+
+
+</fieldset>
+
+
+
+
 </p>
+
+
+
 </div>
 </body>
 
